@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>La Madrague – Bar & lieu d'écoute à Voiron</title>
+    <meta
+      name="description"
+      content="Site de La Madrague – Bar & lieu d'écoute à Voiron"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========== EN-TÊTE ========== -->
+    <header id="menu" class="site-header container">
+      <a class="logo" href="#top">La Madrague</a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#lieu">Le lieu</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#archives">Archives</a>
+        <a href="#infos">Infos</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- ========== HERO ========== -->
+      <section class="hero container">
+        <div class="hero-text">
+          <p class="kicker">Espace d'écoute - Bar</p>
+          <h1>Du son<br />De la bass<br />Une bière</h1>
+          <p class="lead">Que faut-il de plus ?</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#agenda">Voir l'agenda</a>
+            <a class="btn btn-outline" href="#infos">Venir nous voir</a>
+          </div>
+        </div>
+        <!-- Remplace le div .ph par : <img src="images/hero.jpg" alt="La salle de nuit"> -->
+        <figure class="hero-photo">
+          <div class="ph">Photo principale</div>
+        </figure>
+      </section>
+
+      <!-- ========== LE LIEU (galerie) ========== -->
+      <section id="lieu" class="container section">
+        <div class="section-head">
+          <h2>Le lieu</h2>
+          <!-- <p>[Court texte sur le bar.]</p> -->
+        </div>
+        <div class="gallery">
+          <!-- Une photo = un <figure>. Pour une photo, remplace le .ph par <img src="images/..." alt="..."> -->
+          <figure class="wide"><div class="ph">Le bar</div></figure>
+          <figure><div class="ph alt">Le système son</div></figure>
+          <figure><div class="ph alt">La platine</div></figure>
+          <figure><div class="ph">Les cocktails</div></figure>
+          <figure><div class="ph alt">Le public</div></figure>
+        </div>
+      </section>
+
+      <!-- ========== AGENDA (événements à venir) ========== -->
+      <section id="agenda" class="band">
+        <div class="container section">
+          <h2>Prochains événements</h2>
+          <ul class="events">
+            <!-- Un événement = un <li>. Copie-colle le bloc pour en ajouter. -->
+            <li class="event">
+              <time class="event-date" datetime="2026-11-12">
+                <span class="day">12</span>
+                <span class="month">Nov</span>
+              </time>
+              <div class="event-body">
+                <h3>[Titre de la soirée]</h3>
+                <p>[Artiste · Genre]</p>
+              </div>
+              <p class="event-time">[20h30]</p>
+              <a class="btn btn-outline" href="#infos"
+                >Infos &amp; réservation</a
+              >
+            </li>
+
+            <li class="event">
+              <time class="event-date" datetime="2026-11-19">
+                <span class="day">19</span>
+                <span class="month">Nov</span>
+              </time>
+              <div class="event-body">
+                <h3>[Titre de la soirée]</h3>
+                <p>[Artiste · Genre]</p>
+              </div>
+              <p class="event-time">[20h30]</p>
+              <a class="btn btn-outline" href="#infos"
+                >Infos &amp; réservation</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Equipe -->
+      <!-- Petite descriptiopn de l'équipe, sasns photo -->
+      <section id="equipe" class="container section">
+        <div class="section-head">
+          <h2>L'équipe</h2>
+          <p>Les personnes derrière le bar</p>
+        </div>
+        <p>
+          2 membres passionnés par la musique et la bass music, réunis pour
+          créer un espace d'écoute unique. Leur amour de la culture musicale se
+          reflète dans chaque soirée et chaque sélection de vinyles.
+        </p>
+      </section>
+
+      <!-- ========== ARCHIVES (événements passés) ========== -->
+      <section id="archives" class="container section">
+        <div class="section-head">
+          <h2>Archives</h2>
+          <p>Les soirées passées, en images.</p>
+        </div>
+        <div class="cards">
+          <!-- Une carte = un <article>. Copie-colle pour en ajouter. -->
+          <article class="card">
+            <a href="#archives">
+              <div class="ph card-photo">Photo de la soirée</div>
+              <time datetime="2026-10-03">3 octobre 2026</time>
+              <h3>[Titre de la soirée]</h3>
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="#archives">
+              <div class="ph alt card-photo">Photo de la soirée</div>
+              <time datetime="2026-09-26">26 septembre 2026</time>
+              <h3>[Titre de la soirée]</h3>
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="#archives">
+              <div class="ph card-photo">Photo de la soirée</div>
+              <time datetime="2026-09-19">19 septembre 2026</time>
+              <h3>[Titre de la soirée]</h3>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- ========== INFOS PRATIQUES ========== -->
+      <section id="infos" class="infos">
+        <div class="container infos-grid">
+          <h2>Venez écouter</h2>
+          <div>
+            <h3>Adresse</h3>
+            <p>33 Av. Jean Jaurès<br />38500 Voiron</p>
+          </div>
+          <div>
+            <h3>Horaires</h3>
+            <p>
+              Ouvert de façon ponctuelle selon l'agenda.<br />Suivez-nous pour
+              connaître les prochains événements.
+            </p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p>[email]<br />04 76 05 75 96<br />[Instagram]</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== RETOUR EN HAUT ========== -->
+    <a href="#menu" class="back-to-top" aria-label="Retour en haut de la page"
+      >↑</a
+    >
+
+    <script>
+      const backToTop = document.querySelector(".back-to-top");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          backToTop.style.opacity = "1";
+          backToTop.style.pointerEvents = "auto";
+        } else {
+          backToTop.style.opacity = "0";
+          backToTop.style.pointerEvents = "none";
+        }
+      });
+    </script>
+
+    <!-- ========== PIED DE PAGE ========== -->
+    <footer class="site-footer container">
+      <span>© La Madrague</span>
+      <!-- <span>L'abus d'alcool est dangereux pour la santé.</span> -->
+    </footer>
+  </body>
+</html>
