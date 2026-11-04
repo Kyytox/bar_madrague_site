@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://VOTRE-DOMAINE.fr/sitemap.xml
+Sitemap: https://barlamadrague.fr/sitemap.xml
+
